@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/all.css" rel="stylesheet">
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        .ic{
+            color:orange;
+        }
+        .na:hover{
+            color:orange;
+            transition: all 300ms;
+
+        }
+        .card:hover{
+          box-shadow: 0px 0px 10px 10px black;
+          transition: all 300ms;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header bg-dark">
+            <div class="col-sm-1"></div>
+            
+            <div class="col-sm-4 text-light">
+                <i class="fa-solid fa-phone  ic "></i> +91-7845637464 
+                <i class="fa-solid fa-envelope ic"></i>  niteshsri.2002@gmail.com
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 text-light" style="text-align: right;">
+                <i class="fa-brands fa-facebook ic me-2"></i>
+                <i class="fa-brands fa-twitter ic me-2"></i>
+                <i class="fa-brands fa-youtube ic me-2"></i>
+                <i class="fa-brands fa-instagram ic me-2"></i>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row menu">
+            <div class="col-sm-4 logo fs-3 p-3"><b style="margin-left:20%">BUIL<span class="text-warning">DER</span></b></div>
+            <div class="col-sm-8 menu p-3">
+                <nav class="navbar navbar-expand-lg  m-0 p-0" id="menu">
+                    <div class="container-fluid">
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item ms-5" >
+                            <a class="nav-link na" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  na" aria-current="page" href="#"><i class="fa-solid fa-pen"></i> About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link na" aria-current="page" href="#"><i class="fa-solid fa-bell-concierge"></i> Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link na" aria-current="page" href="#"><i class="fa-brands fa-product-hunt"></i> Our Product</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link na" aria-current="page" href="#"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle na" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-image"></i> Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item na" href="#">Image Gallery</a></li>
+                              <li><a class="dropdown-item na" href="#">Video Gallery</a></li>
+                              
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  na" aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row slider bg-dark">
+            <div class="col-sm-12">
+                <!-- ///////////////////start slider -->
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" class="d-block w-100" alt="..." style="max-height: 500px;">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>WE BUILD YOUR <span class="text-warning">FUTURE</span></h2>
+                          <p>Some representative placeholder content for the first slide.<BR>Some representative placeholder content for the first slide.</p>
+                            <div class="btn btn-warning"> Connect with Us</div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" class="d-block w-100" alt="..." style="max-height: 500px;">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/luca-bravo-XJXWbfSo2f0-unsplash.jpg" class="d-block w-100" alt="..." style="max-height: 500px;">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <!-- ///////////////////end slider -->
+            </div>
+        </div>
+        <div class="row register bg-warning p-3" style="min-height: 80px; ">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 text-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing.  </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <div class="btn btn-light">Register Now</div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row about mt-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 fs-2"> 
+                We Provide Creative Design & Construction Proper Rule.
+            </div>
+            <div class="col-sm-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aliquam voluptatibus sequi ipsum deleniti consectetur ex velit accusantium, saepe, tenetur aspernatur debitis aperiam asperiores quaerat iste architecto in quis expedita.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore nesciunt perspiciatis sint atque eius exercitationem et, optio libero beatae deleniti dignissimos voluptatibus voluptas autem mollitia temporibus vero fuga fugiat sequi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aliquam voluptatibus sequi ipsum deleniti consectetur ex velit accusantium, saepe, tenetur aspernatur debitis aperiam asperiores quaerat iste architecto in quis expedita.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore nesciunt perspiciatis sint atque eius exercitationem et, optio libero beatae deleniti dignissimos voluptatibus voluptas autem mollitia temporibus vero fuga fugiat sequi!
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row services mb-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 mt-5 ms-4 ">
+                <h3><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                <div>
+                    <h3 class="mt-3"><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5 ms-3">
+                <h3><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                <div>
+                    <h3 class="mt-3"><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span> </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5 ms-5">
+                <h3><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                <div>
+                    <h3 class="mt-3"><i class="fa-solid fa-location-pin p-2" style="border:1px solid orange;background-color: orange;color:white;border-radius:50%"></i> Breaking <span class="text-warning">News</span></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero aspernatur sapiente </p>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row video mt-5 mb-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5" >
+                <h3 ><b style="font-weight: bold;">We Are Providing You Total Construction Solution.</b></h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit eum, facere explicabo tempora saepe nesciunt iure, amet deserunt placeat officiis quae est aspernatur quasi id ad, laboriosam itaque dicta.</p>
+                <div class="btn btn-warning" >Book Us</div>
+            </div>
+            <div class="col-sm-5">
+                  <video class="embed-responsive-item"  src="images/pexels_videos_2048246 (1080p).mp4" autoplay muted controls loop style="width:100%"></video>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row expert">
+            <div style="min-height: 250px;background: url(images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);background-size: cover;">
+            <div style="min-height:250px;background-color: rgba(0,0,0,0.5);" class="text-light text-center p-5 fs-1"><span>We Have Expert Engineer</span>
+            <div class="text-center fs-5 mt-5 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt a, commodi nulla debitis perspiciatis quos asperiores ab expedita exercitationem totam ratione. Veritatis itaque ex iusto dolorum ullam aliquid rem minima!</div>
+            <div class="btn btn-warning text-light"> Register With US</div>
+            </div>
+        </div>
+        </div>
+        <div class="row team mt-5">
+            <div class="fs-2 text-center"><b>Expert Team <span class="text-warning">Members</span></b></div>
+            <div class="text-center fs-5 row mt-3">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, harum neque eius nemo aperiam debitis iure Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum fugiat fuga est pariatur suscipit distin</div>
+                <div class="col-sm-2"></div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                        <div class="card" style="width: 12rem;">
+                            <img src="images/20231123_130004.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-bg-warning">
+                              <p class="card-text">  HR <br>Manager</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="card" style="width: 12rem;">
+                            <img src="images/20231123_130004.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-bg-warning">
+                              <p class="card-text">Frontend Beveloper</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="card" style="width: 12rem;">
+                            <img src="images/20231123_130004.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-bg-warning">
+                              <p class="card-text">Backend Developer</p>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="col-sm-2">
+                        <div class="card" style="width: 12rem;">
+                            <img src="images/20231123_130004.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-bg-warning">
+                              <p class="card-text">DB <br>Administrator</p>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </div>
+            
+            </div>
+        </div>
+        <div class="row footer mt-5">
+            <!-- Footer -->
+<footer class="text-center text-lg-start text-bg-dark ">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i><b class="fs-2">Buil<span class="text-warning">der</span></b>
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Projects
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Ring Road,Vikas Nagar Tedi Pulia, Lucknow, Uttar Pradesh</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              niteshsruvastava834@gamil.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 91 894 8508 636</p>
+            <p><i class="fas fa-print me-3"></i> + 91 919 8842 688</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.01);">
+      <hr>
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Niteshsri/2002.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+        </div>
+    </div>
+</body>
+</html>
